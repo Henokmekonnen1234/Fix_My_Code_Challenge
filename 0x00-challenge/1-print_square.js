@@ -6,6 +6,7 @@
     of the program.
 */
 
+const process = require('require');
 
 if (process.argv.length <= 2) {
     process.stderr.write("Missing argument\n");
@@ -14,10 +15,10 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-size = parseInt(process.argv[1])
+size = parseInt(process.argv[2])
 
-for (let i = 0 ; i < size ; i ++) {
-    for (let j = 0 ; j < size ; j ++) {
+for (let i = 0 ; i < size ; i++) {
+    for (let j = 0 ; j < size ; j++) {
         process.stdout.write("#");
     }
     process.stdout.write("\n");
