@@ -3,6 +3,7 @@
 In this class the area and perimeter will be callculated
 """
 
+
 class Square:
     """ in this class area and perimeter will be callculated
 
@@ -10,7 +11,7 @@ class Square:
         width (int): is the length of the square
     """
     width = 0
-        
+
     def __init__(self, *args, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
@@ -24,6 +25,7 @@ class Square:
 
     def __str__(self):
         return "{} * {}".format(self.width, self.width)
+
 
 if __name__ == "__main__":
 
