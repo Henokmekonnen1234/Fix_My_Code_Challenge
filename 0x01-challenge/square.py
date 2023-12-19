@@ -4,7 +4,7 @@ In this class the area and perimeter will be callculated
 """
 
 
-class Square:
+class Square():
     """ in this class area and perimeter will be callculated
 
     Atributes:
