@@ -45,7 +45,7 @@ class Square():
         Returns:
             str: return the below string when the class called
         """
-        return "{} * {}".format(self.width, self.width)
+        return "{}/{}".format(self.width, self.width)
 
 
 if __name__ == "__main__":
